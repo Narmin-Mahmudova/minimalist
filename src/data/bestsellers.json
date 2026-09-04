@@ -1,0 +1,149 @@
+[
+  {
+    "id": "bestseller-1",
+    "name": "Salicylic Acid + LHA 2% Cleanser",
+    "description": "Acne, Breakouts & Oiliness",
+    "images": ["/images/seller1.avif", "/images/seller1-2.avif", "/images/seller1-3.avif"],
+    "sizes": [
+      { "label": "100ml", "price": 285, "oldPrice": 299 },
+      { "label": "250ml", "price": 570, "oldPrice": 599 }
+    ],
+    "category": "skin",
+    "step": "cleanse",
+    "type": "cleanser",
+    "concerns": ["acne"],
+    "ingredients": ["aha"],
+    "inStock": true
+  },
+  {
+    "id": "bestseller-2",
+    "name": "SPF 50 Sunscreen",
+    "description": "Sun protection, UV exposure / damage",
+    "images": ["/images/seller2.avif", "/images/seller2-2.avif", "/images/seller2-3.avif"],
+    "sizes": [
+      { "label": "30g", "price": 249, "oldPrice": 299 },
+      { "label": "50g", "price": 280, "oldPrice": 299 },
+      { "label": "100g", "price": 665, "oldPrice": 699 }
+    ],
+    "category": "skin",
+    "step": "spf",
+    "type": "spf",
+    "concerns": ["dull skin"],
+    "ingredients": ["hyaluronic acid"],
+    "inStock": true
+  },
+  {
+    "id": "bestseller-3",
+    "name": "Vitamin B5 10% Moisturizer",
+    "description": "Damaged Barrier, Oily & Dehydrated",
+    "images": ["/images/seller3.avif", "/images/seller3-2.avif", "/images/seller3-3.avif"],
+    "sizes": [
+      { "label": "50g", "price": 540, "oldPrice": 599 },
+      { "label": "100g", "price": 950, "oldPrice": 999 }
+    ],
+    "category": "eye",
+    "step": "moisturize",
+    "type": "moisturize",
+    "concerns": ["dehydrated skin"],
+    "ingredients": ["retinoid / retinol / retinal"],
+    "inStock": true
+  },
+  {
+    "id": "bestseller-4",
+    "name": "Niacinamide 10% Face Serum",
+    "description": "Acne Marks, Acne Prone & Oily Skin",
+    "images": ["/images/seller4.avif", "/images/seller4-2.avif", "/images/seller4-3.avif"],
+    "sizes": [
+      { "label": "30ml", "price": 237, "oldPrice": 250 },
+      { "label": "60ml", "price": 570, "oldPrice": 599 },
+      { "label": "100ml", "price": 950, "oldPrice": 999 }
+    ],
+    "category": "skin",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["acne"],
+    "ingredients": ["vitamin-c"],
+    "inStock": true
+  },
+  {
+    "id": "bestseller-5",
+    "name": "Vitamin C 10% Face Serum",
+    "description": "Dullness, Spots & Loss of Elasticity",
+    "images": ["/images/seller5.avif", "/images/seller5-2.avif", "/images/seller5-3.avif"],
+    "sizes": [
+      { "label": "30ml", "price": 285, "oldPrice": 299 },
+      { "label": "100ml", "price": 950, "oldPrice": 999 }
+    ],
+    "category": ["body", "all"],
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["dull skin", "hyperpigmentation / dark spots", "fine lines / wrinkles"],
+    "ingredients": ["vitamin-c"],
+    "inStock": true
+  },
+  {
+    "id": "bestseller-6",
+    "name": "Salicylic Acid 2% Face Serum",
+    "description": "Acne, Oily Skin, Blackheads & Irritation",
+    "images": ["/images/seller6.avif", "/images/seller6-2.avif", "/images/seller6-3.avif"],
+    "sizes": [
+      { "label": "30ml", "price": 495, "oldPrice": 549 },
+      { "label": "60ml", "price": 670, "oldPrice": 799 },
+      { "label": "100ml", "price": 750, "oldPrice": 999 }
+    ],
+    "category": "hair",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["acne"],
+    "ingredients": ["aha"],
+    "inStock": true
+  },
+  {
+    "id": "bestseller-7",
+    "name": "B12 + Oat Extract Gentle Cleanser",
+    "description": "Dry, Dehydrated, Sensitive Skin",
+    "images": ["/images/seller7.avif", "/images/seller7-2.avif", "/images/seller7-3.avif"],
+    "sizes": [
+      { "label": "120ml", "price": 270, "oldPrice": 299 },
+      { "label": "150ml", "price": 390, "oldPrice": 499 }
+    ],
+    "category": "body",
+    "step": "cleanse",
+    "type": "cleanser",
+    "concerns": ["dehydrated skin"],
+    "ingredients": ["alpha-arbutin"],
+    "inStock": true
+  },
+  {
+    "id": "bestseller-8",
+    "name": "Glycolic Acid 8% Exfoliating Liquid",
+    "description": "Dull Skin, Uneven Tone & Texture",
+    "images": ["/images/seller8.avif", "/images/seller8-2.avif", "/images/seller8-3.avif"],
+    "sizes": [
+      { "label": "30ml", "price": 450, "oldPrice": 499 },
+      { "label": "60ml", "price": 650, "oldPrice": 699 }
+    ],
+    "category": "baby",
+    "step": "tone",
+    "type": "toner",
+    "concerns": ["dull skin"],
+    "ingredients": ["aha"],
+    "inStock": true
+  },
+  {
+    "id": "bestseller-9",
+    "name": "AHA PHA BHA 32% Face Pell",
+    "description": "Hyperpigmentation, Dullness & Wrinkles",
+    "images": ["/images/seller9.avif", "/images/seller9-2.avif", "/images/seller9-3.avif"],
+    "sizes": [
+      { "label": "10ml", "price": 285, "oldPrice": 299 },
+      { "label": "30ml", "price": 665, "oldPrice": 699 }
+    ],
+    "category": "hair",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["hyperpigmentation / dark spots", "dull skin", "fine lines / wrinkles"],
+    "ingredients": ["aha"],
+    "inStock": true
+  }
+]

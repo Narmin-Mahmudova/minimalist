@@ -1,0 +1,239 @@
+{
+  "babycare": {
+    "categories": [
+      { "id": "baby", "label": "Baby" }
+    ],
+    "steps": [
+      { "id": "cleanse", "label": "Cleanse" },
+      { "id": "treat", "label": "Treat" },
+      { "id": "moisturize", "label": "Moisturize" },
+      { "id": "nourish", "label": "Nourish" }
+    ],
+    "types": [
+      { "id": "body lotion", "label": "Body Lotion" },
+      { "id": "body wash", "label": "Body Wash" },
+      { "id": "body oil", "label": "Body Oil" },
+      { "id": "ointment", "label": "Ointment" }
+    ],
+    "concerns": [
+      { "id": "sensitive skin", "label": "Sensitive Skin" },
+      { "id": "diaper rash", "label": "Diaper Rash" }
+    ],
+    "ingredients": [
+      { "id": "ceramide", "label": "Ceramide" },
+      { "id": "vitamin-d", "label": "Vitamin D" },
+      { "id": "zinc oxide", "label": "Zinc Oxide" }
+    ],
+    "availability": [
+      { "id": "in-stock", "label": "In Stock" }
+    ]
+  },
+  "bathbody": {
+    "categories": [
+      { "id": "skin", "label": "Skin" },
+      { "id": "body", "label": "Body" }
+    ],
+    "steps": [
+      { "id": "cleanse", "label": "Cleanse" },
+      { "id": "tone", "label": "Tone" },
+      { "id": "treat", "label": "Treat" },
+      { "id": "moisturize", "label": "Moisturize" },
+      { "id": "spf", "label": "SPF" }
+    ],
+    "types": [
+      { "id": "toner", "label": "Toner" },
+      { "id": "spf", "label": "SPF" },
+      { "id": "body lotion", "label": "Body Lotion" },
+      { "id": "combo kit", "label": "Combo Kit" },
+      { "id": "body wash", "label": "Body Wash" }
+    ],
+    "concerns": [
+      { "id": "acne", "label": "Acne" },
+      { "id": "sun protection", "label": "Sun Protection " },
+      { "id": "dry skin", "label": "Dry Skin" },
+      { "id": "underarm darkness", "label": "Underarm darkness" },
+      { "id": "body odour", "label": "Body Odour" }
+    ],
+    "ingredients": [
+      { "id": "bha / salicylic acid", "label": "BHA / Salicylic Acid" },
+      { "id": "niacinamide", "label": "Niacinamide" },
+      { "id": "uv filters", "label": "UV Filters" },
+      { "id": "nonapeptide", "label": "Nonapeptide" },
+      { "id": "hypochlorous acid", "label": "Hypochlorous Acid" }
+    ],
+    "availability": [
+      { "id": "in-stock", "label": "In Stock" }
+    ]
+  },
+  "bestsellers": {
+    "categories": [
+      { "id": "skin", "label": "Skin" },
+      { "id": "hair", "label": "Hair" },
+      { "id": "body", "label": "Body" },
+      { "id": "eye", "label": "Eye" },
+      { "id": "baby", "label": "Baby" }
+    ],
+    "steps": [
+      { "id": "cleanse", "label": "Cleanse" },
+      { "id": "tone", "label": "Tone" },
+      { "id": "treat", "label": "Treat" },
+      { "id": "moisturize", "label": "Moisturize" },
+      { "id": "spf", "label": "SPF" }
+    ],
+    "types": [
+      { "id": "cleanser", "label": "Cleanser" },
+      { "id": "toner", "label": "Toner" },
+      { "id": "moisturize", "label": "Moisturize" },
+      { "id": "spf", "label": "SPF" },
+      { "id": "serum", "label": "Serum" }
+    ],
+    "concerns": [
+      { "id": "acne", "label": "Acne" },
+      { "id": "hyperpigmentation / dark spots", "label": "Hyperpigmentation / Dark Spots" },
+      { "id": "fine lines / wrinkles", "label": "Fine Lines / Wrinkles" },
+      { "id": "dull skin", "label": "Dull Skin" },
+      { "id": "dehydrated skin", "label": "Dehydrated Skin" }
+    ],
+    "ingredients": [
+      { "id": "vitamin-c", "label": "Vitamin C" },
+      { "id": "retinoid / retinol / retinal", "label": "Retinoid / Retinol / Retinal" },
+      { "id": "hyaluronic-acid", "label": "Hyaluronic Acid" },
+      { "id": "alpha arbutin", "label": "Alpha Arbutin" },
+      { "id": "aha", "label": "AHA" }
+    ],
+    "availability": [
+      { "id": "in-stock", "label": "In Stock" },
+      { "id": "out-of-stock", "label": "Out of Stock" }
+    ]
+  },
+  "hair": {
+    "categories": [
+      { "id": "hair", "label": "Hair" }
+    ],
+    "steps": [
+      { "id": "cleanse", "label": "Cleanse" },
+      { "id": "treat", "label": "Treat" },
+      { "id": "nourish", "label": "Nourish" }
+    ],
+    "types": [
+      { "id": "serum", "label": "Serum" },
+      { "id": "combo kit", "label": "Combo Kit" },
+      { "id": "hair mask", "label": "Hair Mask" },
+      { "id": "shampoo", "label": "Shampoo" }
+    ],
+    "concerns": [
+      { "id": "hair fall", "label": "Hair fall" },
+      { "id": "weak & damaged hair", "label": "Weak & Damaged Hair" },
+      { "id": "dandruff ", "label": "Dandruff" },
+      { "id": "frizzy hair", "label": "Frizzy Hair" }
+    ],
+    "ingredients": [
+      { "id": "peptide", "label": "Peptide" },
+      { "id": "hydrating", "label": "Hydrating" },
+      { "id": "maleic acid", "label": "Maleic Acid" },
+      { "id": "keratin", "label": "Keratin" }
+    ],
+    "availability": [
+      { "id": "in-stock", "label": "In Stock" },
+      { "id": "out-of-stock", "label": "Out of Stock" }
+    ]
+  },
+  "lip": {
+    "categories": [
+      { "id": "skin", "label": "Skin" }
+    ],
+    "steps": [
+      { "id": "moisturize", "label": "Moisturize" }
+    ],
+    "types": [
+      { "id": "lip balm", "label": "Lip Balm" }
+    ],
+    "concerns": [
+      { "id": "hyperpigmentation / dark spots", "label": "Hyperpigmentation / Dark Spots" },
+      { "id": "sun protection", "label": "Sun Protection " }
+    ],
+    "ingredients": [
+      { "id": "vitamin c", "label": "Vitamin C" },
+      { "id": "uv filters", "label": "UV Filters" }
+    ],
+    "availability": [
+      { "id": "in-stock", "label": "In Stock" }
+    ]
+  },
+  "newlaunches": {
+    "categories": [
+      { "id": "skin", "label": "Skin" },
+      { "id": "hair", "label": "Hair" },
+      { "id": "baby", "label": "Baby" }
+    ],
+    "steps": [
+      { "id": "cleanse", "label": "Cleanse" },
+      { "id": "tone", "label": "Tone" },
+      { "id": "treat", "label": "Treat" },
+      { "id": "moisturize", "label": "Moisturize" },
+      { "id": "spf", "label": "SPF" }
+    ],
+    "types": [
+      { "id": "cleanser", "label": "Cleanser" },
+      { "id": "toner", "label": "Toner" },
+      { "id": "moisturize", "label": "Moisturize" },
+      { "id": "spf", "label": "SPF" },
+      { "id": "serum", "label": "Serum" }
+    ],
+    "concerns": [
+      { "id": "acne", "label": "Acne" },
+      { "id": "fine lines / wrinkles", "label": "Fine Lines / Wrinkles" },
+      { "id": "dehydrated skin", "label": "Dehydrated Skin" },
+      { "id": "oil control", "label": "Oil Control" },
+      { "id": "sun protection", "label": "Sun Protection" }
+    ],
+    "ingredients": [
+      { "id": "retinoid / retinol / retinal", "label": "Retinoid / Retinol / Retinal" },
+      { "id": "reptide", "label": "Reptide" },
+      { "id": "ceramide", "label": "Ceramide" },
+      { "id": "face oil ", "label": "Face Oil" },
+      { "id": "uv filters", "label": "UV Filters" }
+    ],
+    "availability": [
+      { "id": "in-stock", "label": "In Stock" },
+      { "id": "out-of-stock", "label": "Out of Stock" }
+    ]
+  },
+  "skin": {
+    "categories": [
+      { "id": "skin", "label": "Skin" },
+      { "id": "eye", "label": "Eye" }
+    ],
+    "steps": [
+      { "id": "cleanse", "label": "Cleanse" },
+      { "id": "tone", "label": "Tone" },
+      { "id": "treat", "label": "Treat" },
+      { "id": "moisturize", "label": "Moisturize" },
+      { "id": "spf", "label": "SPF" }
+    ],
+    "types": [
+      { "id": "cleanser", "label": "Cleanser" },
+      { "id": "toner", "label": "Toner" },
+      { "id": "moisturize", "label": "Moisturize" },
+      { "id": "spf", "label": "SPF" },
+      { "id": "serum", "label": "Serum" }
+    ],
+    "concerns": [
+      { "id": "acne", "label": "Acne" },
+      { "id": "hyperpigmentation / dark spots", "label": "Hyperpigmentation / Dark Spots" },
+      { "id": "fine lines / wrinkles", "label": "Fine Lines / Wrinkles" },
+      { "id": "dull skin", "label": "Dull Skin" },
+      { "id": "dehydrated skin", "label": "Dehydrated Skin" }
+    ],
+    "ingredients": [
+      { "id": "vitamin-c", "label": "Vitamin C" },
+      { "id": "retinoid / retinol / retinal", "label": "Retinoid / Retinol / Retinal" },
+      { "id": "hyaluronic-acid", "label": "Hyaluronic Acid" },
+      { "id": "alpha arbutin", "label": "Alpha Arbutin" },
+      { "id": "aha", "label": "AHA" }
+    ],
+    "availability": [
+      { "id": "in-stock", "label": "In Stock" }
+    ]
+  }
+}

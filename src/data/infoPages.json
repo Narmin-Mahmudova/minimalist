@@ -1,0 +1,168 @@
+{
+  "about-us": {
+    "title": "About Us",
+    "paragraphs": [
+      "We are a team of skincare enthusiasts who are committed to bringing effective, research-backed, and transparent products to the beauty industry.",
+      "We believe that the beauty industry needs a major shift towards honesty. Our goal is to remove unnecessary hype and provide direct, powerful formulations that work."
+    ],
+    "tagline": "HideNothing."
+  },
+  "our-values": {
+    "title": "Our values",
+    "paragraphs": [
+      "Founded in 2020 with the belief that beauty industry requires a revolution with respect to <strong>TRANSPARENCY</strong>. There is lot of inaccurate advice & incorrect claims being made by beauty brands which results in fear mongering, misconceptions and eventually consumers making wrong decisions.",
+      "For example, the <em>blind march</em> towards beauty products with 'Natural' claims is really concerning. There is a misconception that 100% natural is safe & effective and anything that sounds like a chemical is unsafe. This is completely wrong.",
+      "<strong>\"Everything is a chemical – water is a chemical – therefore, chemical-free products don't exist.\"</strong>",
+      "We wanted to address this issue of <em>lack of transparency</em> through a range of products that are straightforward, honest and do what they claim to do. No unnecessary marketing fluff.",
+      "And this is how <strong>Minimalist</strong> was born."
+    ],
+    "tagline": "HideNothing."
+  },
+  "privacy-notice": {
+    "title": "Privacy Notice",
+    "paragraphs": [
+      "Your privacy is extremely important to us. This Privacy Notice explains how we collect, use, disclose, and safeguard your personal information when you visit our website or make a purchase.",
+      "We strictly adhere to data protection standards and ensure that your personal information is processed safely and responsibly."
+    ],
+    "list": [
+      "We collect personal information that you voluntarily provide to us when registering or placing an order.",
+      "We use personal information collected via our website for processing transactions, shipping, and customer service support.",
+      "We do not sell, rent, or trade your personal information to third parties for marketing purposes."
+    ]
+  },
+  "cookie-policy": {
+    "title": "Cookie Policy",
+    "paragraphs": [
+      "This Cookie Policy explains how we use cookies and similar tracking technologies to recognize you when you visit our website.",
+      "Cookies help us understand how the site is being used, remember your preferences, and generally improve your browsing and shopping experience."
+    ],
+    "list": [
+      "Essential Cookies: Necessary for the website to function properly.",
+      "Analytics Cookies: Help us measure traffic and user interactions to improve our store.",
+      "Functional Cookies: Remember choices you make, such as language or region."
+    ]
+  },
+  "terms-and-conditions": {
+    "title": "Terms & Conditions",
+    "paragraphs": [
+      "Welcome to Minimalist. By accessing or using our website, you agree to be bound by these terms and conditions.",
+      "Please read them carefully before using our services or placing an order."
+    ],
+    "list": [
+      "All content, trademarks, and logos on this site belong to Minimalist.",
+      "You agree not to reproduce, duplicate, copy, or exploit any portion of the service without explicit written permission.",
+      "We reserve the right to modify prices or discontinue products at any time without prior notice."
+    ]
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "paragraphs": [
+      "The information provided on this website is for educational and informational purposes only and is not intended as medical advice.",
+      "Our products are formulated for skincare care and general well-being. Always perform a patch test before using any product, and consult with a dermatologist if you have specific medical skin conditions."
+    ]
+  },
+  "corporate-information": {
+    "title": "Corporate Information",
+    "paragraphs": [
+      "U26 Wellness Private Limited is the parent company behind Minimalist, dedicated to manufacturing and delivering research-backed skincare formulations globally.",
+      "Registered Address: Plot No. 12, Sector 5, IMT Manesar, Gurugram, Haryana - 122050, India."
+    ]
+  },
+  "media-outreach": {
+    "title": "Media Outreach",
+    "paragraphs": [
+      "For media inquiries, press releases, interviews, or brand collaborations, please reach out to our communications team.",
+      "Email: press@beminimalist.co"
+    ]
+  },
+  "distributor-queries": {
+    "title": "Distributor Queries",
+    "paragraphs": [
+      "Interested in becoming a retail partner or authorized distributor of Minimalist products?",
+      "Please send your company profile, distribution background, and proposal to: sales@beminimalist.co"
+    ]
+  },
+  "grievance-redressal": {
+    "title": "Grievance Redressal",
+    "paragraphs": [
+      "In accordance with Information Technology Act 2000 and rules made thereunder, the name and contact details of the Grievance Officer are provided below:",
+      "Name: Grievance Officer\nEmail: grievance@beminimalist.co\nResponse Time: Within 48 hours on business days."
+    ]
+  },
+  "knowledge": {
+    "title": "Knowledge & Science",
+    "paragraphs": [
+      "We believe in education over marketing. Dive into our scientific breakdowns of active ingredients, formulation percentages, and skincare science basics."
+    ],
+    "list": [
+      "Understanding pH Levels in Skincare",
+      "How Active Ingredients Work: AHA, BHA, Niacinamide & Retinoids",
+      "Why 'Fragrance-Free' Matters for Sensitive Skin"
+    ]
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "paragraphs": [
+      "Find quick answers to common questions about our products, order processing, shipping, and skincare routines."
+    ],
+    "list": [
+      "Are your products suitable for sensitive skin? Yes, all our formulations are fragrance-free and tested, but we always recommend a patch test.",
+      "Are Minimalist products cruelty-free? Yes, we do not test any of our products or ingredients on animals.",
+      "How long does delivery take? Domestic orders typically take 3 to 7 business days to deliver."
+    ]
+  },
+  "shipping-policy": {
+    "title": "Shipping Policy",
+    "paragraphs": [
+      "We strive to deliver products purchased from us in excellent condition and in the fastest time possible."
+    ],
+    "list": [
+      "Orders are typically dispatched within 24 to 48 business hours of confirmation.",
+      "Standard shipping takes 3-7 business days depending on your location.",
+      "Free shipping is applicable on orders above a specified threshold at checkout."
+    ]
+  },
+  "payment-policy": {
+    "title": "Payment Policy",
+    "list": [
+      "We accept online orders through COD or Prepaid. For Prepaid orders, we accept Visa, Master Card & American Express Debit and Credit Cards. We also have payment wallets integrated.",
+      "Please note for Visa and Master Card, you will be required to submit your 16 digit card number, card expiry date, and a 3-digit CVV Number (on the back of your card) when you make an online transaction using your Credit or Debit Card. For American Express cards, you will be required to submit your 15-digit card number and 4-digit code.",
+      {
+        "text": "If the amount has been deducted from your account, but you haven't received a confirmation from us, you can reach out to our customer care team at help@beminimalist.co and provide the following information:",
+        "subList": [
+          "Transaction Ref Number",
+          "Registered Email ID and Phone Number from which order was placed",
+          "Date & Time of Transaction"
+        ]
+      },
+      "We are currently using GoKwik Commerce Solutions Private Limited as our payment service provider. Customers will be re-directed to the website of GoKwik Commerce Solutions Private Limited which is not under our control. Customers may refer to our Terms of Use for further information on third party websites."
+    ]
+  },
+  "return-refund-policy": {
+    "title": "Return & refund policy",
+    "list": [
+      "We at Minimalist have formulated each product to deliver best possible results, transparently. We hope you will love our products as much as we do. But in case you wish to return the product, please reach out to us and we will take care of everything for you.",
+      {
+        "text": "We offer refunds or replacements in the following cases ONLY:",
+        "subList": [
+          "You received the wrong product, and,",
+          "You received a damaged product, and,",
+          "You received an expired product, and,",
+          "You have received an empty package."
+        ]
+      },
+      "In case you have received a wrong, damaged or expired product, please send us an email at help@beminimalist.co requesting return/replacement, along with relevant documentary proof such as pictures and relevant emails, within 7 (seven) days from the date of delivery. No return or replacement will be entertained by us after the expiration of 7 days from the delivery of the product.",
+      "In cases where you have received a package which seems without weight in the first instance, please record a video of unboxing of the package by you.",
+      "Orders once shipped cannot be cancelled. However, orders which have not been shipped can be cancelled.",
+      "Please allow us 48 hours to review your request. Once the request is approved, we will initiate a reverse pickup. Our courier partner will pick the order from your doorsteps.",
+      "Upon receiving the returned order, our service team will review the same. If the issues described by you are verified, our team will initiate a refund within 24 hours."
+    ]
+  },
+  "track-order": {
+    "title": "Track Order",
+    "paragraphs": [
+      "You can track your package directly through the tracking link sent to your registered email or phone number once your order is shipped.",
+      "If you experience any delay or issue with tracking, please contact us at help@beminimalist.co with your Order ID."
+    ]
+  }
+}

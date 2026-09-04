@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Salicylic Acid + LHA 2% Cleanser",
+    "description": "Acne, Breakouts & Oiliness",
+    "price": 270,
+    "oldPrice": 299,
+    "images": ["/images/seller1.avif", "/images/seller1-2.avif", "/images/seller1-3.avif"],
+    "sizes": ["100ml", "250ml"]
+  },
+  {
+    "id": 2,
+    "name": "SPF 50 Sunscreen",
+    "description": "Sun protection, UV exposure / damage",
+    "price": 630,
+    "oldPrice": 699,
+    "images": ["/images/seller2.avif", "/images/seller2-2.avif", "/images/seller2-3.avif"],
+    "sizes": ["50g", "100g", "30g"]
+  },
+  {
+    "id": 3,
+    "name": "Vitamin B5 10% Moisturizer",
+    "description": "Damaged Barrier, Oily & Dehydrated",
+    "price": 540,
+    "oldPrice": 599,
+    "images": ["/images/seller3.avif", "/images/seller3-2.avif", "/images/seller3-3.avif"],
+    "sizes": ["50g", "100g"]
+  },
+  {
+    "id": 4,
+    "name": "Niacinamide 10% Face Serum",
+    "description": "Acne Marks, Acne Prone & Oily Skin",
+    "price": 900,
+    "oldPrice": 999,
+    "images": ["/images/seller4.avif", "/images/seller4-2.avif", "/images/seller4-3.avif"],
+    "sizes": ["30ml", "60ml", "10ml"]
+  },
+  {
+    "id": 5,
+    "name": "Vitamin C 10% Face Serum",
+    "description": "Dullness, Spots & Loss of Elasticity",
+    "price": 285,
+    "oldPrice": 299,
+    "images": ["/images/seller5.avif", "/images/seller5-2.avif", "/images/seller5-3.avif"],
+    "sizes": ["10ml", "30ml"]
+  },
+  {
+    "id": 6,
+    "name": "Salicylic Acid 2% Face Serum",
+    "description": "Acne, Oily Skin, Blackheads & Irritation",
+    "price": 495,
+    "oldPrice": 549,
+    "images": ["/images/seller6.avif", "/images/seller6-2.avif", "/images/seller6-3.avif"],
+    "sizes": ["30ml", "60ml", "10ml"]
+  }
+]

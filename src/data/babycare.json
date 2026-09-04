@@ -1,0 +1,58 @@
+[
+  {
+    "id": "babycare-1",
+    "name": "Ceramide & Vitamin B5 Delicate Cleanser",
+    "concern": "Gentle formula that cleanses without drying",
+    "price": 570,
+    "oldPrice": 599,
+    "image": "/images/BabyCare1.avif",
+    "category": "baby",
+    "step": "cleanse",
+    "type": "body wash",
+    "concerns": ["sensitive skin"],
+    "ingredients": ["ceramide"],
+    "inStock": true
+  },
+  {
+    "id": "babycare-2",
+    "name": "Ceramide & Squalene Nourishing Lotion",
+    "concern": "Deeply nourishes, keeps skin soft",
+    "price": 855,
+    "oldPrice": 899,
+    "image": "/images/BabyCare2.avif",
+    "category": "baby",
+    "step": "moisturize",
+    "type": "body lotion",
+    "concerns": ["sensitive skin"],
+    "ingredients": ["ceramide"],
+    "inStock": true
+  },
+  {
+    "id": "babycare-3",
+    "name": "Zinc Oxide + B5 Healing Ointment",
+    "concern": "Prevents skin irritation & diaper rash",
+    "price": 380,
+    "oldPrice": 399,
+    "image": "/images/BabyCare3.avif",
+    "category": "baby",
+    "step": "treat",
+    "type": "ointment",
+    "concerns": ["diaper rash"],
+    "ingredients": ["zinc oxide"],
+    "inStock": true
+  },
+  {
+    "id": "babycare-4",
+    "name": "Provitamin D3 Massage Oil",
+    "concern": "Nourishes & soothes baby's delicate skin",
+    "price": 570,
+    "oldPrice": 599,
+    "image": "/images/BabyCare4.avif",
+    "category": "baby",
+    "step": "nourish",
+    "type": "body oil",
+    "concerns": ["sensitive skin"],
+    "ingredients": ["vitamin-d"],
+    "inStock": true
+  }
+]

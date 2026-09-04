@@ -1,0 +1,52 @@
+[
+  {
+    "id": "launch-1",
+    "name": "Hydrating Factors 7.3% Hair Shampoo",
+    "description": "Manage dry, dull & frizzy hair",
+    "price": 450,
+    "oldPrice": 499,
+    "images": ["/images/product1-1.avif"]
+  },
+  {
+    "id": "launch-2",
+    "name": "Multi Repair Actives 15% Face Serum",
+    "description": "Dullness, Finelines & Loss of Firmness",
+    "price": 630,
+    "oldPrice": 699,
+    "images": ["/images/product2-1.avif", "/images/product2-2.avif", "/images/product2-3.webp"]
+  },
+  {
+    "id": "launch-3",
+    "name": "Marula Oil 05% Effective Cleansing Oil Serum",
+    "description": "Gently remove oils and impurities",
+    "price": 540,
+    "oldPrice": 599,
+    "images": ["/images/product3-1.avif", "/images/product3-2.avif", "/images/product3-3.avif"]
+  },
+  {
+    "id": "launch-4",
+    "name": "Copper Peptide + PDRN 1.25% Face Serum",
+    "description": "Wrinkles, Fine Lines, Damaged Barrier",
+    "price": 699,
+    "oldPrice": 799,
+    "images": ["/images/product4-1.avif", "/images/product4-2.avif", "/images/product4-3.avif"]
+  },
+  {
+    "id": "launch-5",
+    "name": "B12 + Repair Complex 5.5% Face Moisturizer",
+    "description": "Repairs and strengthens skin barrier",
+    "price": 270,
+    "oldPrice": 299,
+    "images": ["/images/product5-1.avif", "/images/product5-2.avif", "/images/product5-3.avif"],
+    "sizes": ["30g", "50g"]
+  },
+  {
+    "id": "launch-6",
+    "name": "Anti Dandruff Shampoo 3.5%",
+    "description": "Reduces Dandruff, Itchiness, Scalp Impurities",
+    "price": 396,
+    "oldPrice": 440,
+    "images": ["/images/product6-1.avif", "/images/product6-2.avif", "/images/product6-3.avif"],
+    "sizes": ["200ml", "100ml"]
+  }
+]

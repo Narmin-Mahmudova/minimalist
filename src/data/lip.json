@@ -1,0 +1,30 @@
+[
+  {
+    "id": "lip-1",
+    "name": "LAscorbic Acid Lip Treatment Balm",
+    "concern": "Lip Dehydration & Hyperpigmentation",
+    "price": 360,
+    "oldPrice": 399,
+    "image": "/images/lip1.avif",
+    "category": "skin",
+    "step": "moisturize",
+    "type": "lip balm",
+    "concerns": ["hyperpigmentation / dark spots"],
+    "ingredients": ["vitamin c"],
+    "inStock": true
+  },
+  {
+    "id": "lip-2",
+    "name": "Lip Balm SPF 30",
+    "concern": "Chapped Lips & UV Protection",
+    "price": 270,
+    "oldPrice": 299,
+    "image": "/images/lip2.avif",
+    "category": "skin",
+    "step": "moisturize",
+    "type": "lip balm",
+    "concerns": ["sun protection "],
+    "ingredients": ["uv filters"],
+    "inStock": true
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "skin-1",
+    "name": "Alpha Arbutin 2% Face Serum",
+    "description": "Hyperpigmentation, Tanning & Sunspot",
+    "images": ["/images/skin1.avif", "/images/seller1-2.avif", "/images/seller1-3.avif"],
+    "sizes": [
+      { "label": "10ml", "price": 299, "oldPrice": 329 },
+      { "label": "30ml", "price": 522, "oldPrice": 549 }
+    ],
+    "category": "skin",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["hyperpigmentation / dark spots"],
+    "ingredients": ["alpha arbutin"],
+    "inStock": true
+  },
+  {
+    "id": "skin-2",
+    "name": "AHA PHA BHA 32% Face Peel",
+    "description": "Hyperpigmentation, Dullness & Wrinkles",
+    "images": ["/images/skin2.avif", "/images/seller2-2.avif", "/images/seller2-3.avif"],
+    "sizes": [
+      { "label": "10ml", "price": 399, "oldPrice": 429 },
+      { "label": "30ml", "price": 665, "oldPrice": 699 }
+    ],
+    "category": "eye",
+    "step": "cleanse",
+    "type": "serum",
+    "concerns": ["hyperpigmentation / dark spots", "dull skin", "fine lines / wrinkles"],
+    "ingredients": ["aha"],
+    "inStock": true
+  },
+  {
+    "id": "skin-3",
+    "name": "Niacinamide 10% Face Serum",
+    "description": "Acne Marks, Acne Prone & Oily Skin",
+    "images": ["/images/skin3.avif", "/images/seller3-2.avif", "/images/seller3-3.avif"],
+    "sizes": [
+      { "label": "10ml", "price": 237, "oldPrice": 250 },
+      { "label": "30ml", "price": 570, "oldPrice": 599 },
+      { "label": "60ml", "price": 950, "oldPrice": 999 }
+    ],
+    "category": "skin",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["acne"],
+    "ingredients": [],
+    "inStock": true
+  },
+  {
+    "id": "skin-5",
+    "name": "Marula Oil 5% Face Moisturizer",
+    "description": "Dry Skin, Flakiness & Tightness",
+    "images": ["/images/skin5.avif", "/images/seller5-2.avif", "/images/seller5-3.avif"],
+    "sizes": [
+      { "label": "30g", "price": 190, "oldPrice": 199 },
+      { "label": "50g", "price": 285, "oldPrice": 299 }
+    ],
+    "category": "eye",
+    "step": "moisturize",
+    "type": "moisturize",
+    "concerns": ["dehydrated skin"],
+    "ingredients": [],
+    "inStock": true
+  },
+  {
+    "id": "skin-6",
+    "name": "Granactive Retinoid 2% Face Serum",
+    "description": "Uneven tone, Wrinkles & Loss of elasticity",
+    "price": 665,
+    "oldPrice": 699,
+    "images": ["/images/skin6.avif", "/images/seller6-2.avif", "/images/seller6-3.avif"],
+    "category": "skin",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["fine lines / wrinkles", "dull skin"],
+    "ingredients": ["retinoid / retinol / retinal"],
+    "inStock": true
+  },
+  {
+    "id": "skin-7",
+    "name": "AHA BHA 10% Face Exfoliator",
+    "description": "Dullness, Roughness & Uneven Texture",
+    "price": 570,
+    "oldPrice": 599,
+    "images": ["/images/skin7.avif", "/images/seller7-2.avif", "/images/seller7-3.avif"],
+    "category": "skin",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["dull skin"],
+    "ingredients": ["aha"],
+    "inStock": true
+  },
+  {
+    "id": "skin-8",
+    "name": "AHA BHA 10% Face Exfoliator",
+    "description": "Dullness, Roughness & Uneven Texture",
+    "price": 570,
+    "oldPrice": 599,
+    "images": ["/images/skin8.avif", "/images/seller8-2.avif", "/images/seller8-3.avif"],
+    "category": "skin",
+    "step": "cleanse",
+    "type": "serum",
+    "concerns": ["dull skin"],
+    "ingredients": ["aha"],
+    "inStock": true
+  },
+  {
+    "id": "skin-9",
+    "name": "Polyhydroxy Acid 3% Face Toner",
+    "description": "Fine Lines, Wrinkles & Loss of Elasticity",
+    "price": 380,
+    "oldPrice": 399,
+    "images": ["/images/skin9.avif", "/images/seller9-2.avif", "/images/seller9-3.avif"],
+    "category": "skin",
+    "step": "tone",
+    "type": "toner",
+    "concerns": ["fine lines / wrinkles"],
+    "ingredients": [],
+    "inStock": true
+  },
+  {
+    "id": "skin-10",
+    "name": "Retinol 0.3% Face Serum",
+    "description": "Acne Marks, Irritated & Damaged Skin",
+    "images": ["/images/skin10.avif", "/images/seller9-2.avif", "/images/seller9-3.avif"],
+    "sizes": [
+      { "label": "10ml", "price": 237, "oldPrice": 249 },
+      { "label": "30ml", "price": 570, "oldPrice": 599 }
+    ],
+    "category": "skin",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["acne"],
+    "ingredients": ["retinoid / retinol / retinal"],
+    "inStock": true
+  },
+  {
+    "id": "skin-11",
+    "name": "Niacinamide 5% Face Serum",
+    "description": "Acne, Oily Skin, Blackheads & Irritation",
+    "price": 570,
+    "oldPrice": 599,
+    "images": ["/images/skin11.avif", "/images/seller9-2.avif", "/images/seller9-3.avif"],
+    "category": "skin",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["acne"],
+    "ingredients": [],
+    "inStock": true
+  },
+  {
+    "id": "skin-12",
+    "name": "Tranexamic 3% Face Serum",
+    "description": "Acne Scars, Melasma, PIE",
+    "price": 617,
+    "oldPrice": 649,
+    "images": ["/images/skin12.avif", "/images/seller9-2.avif", "/images/seller9-3.avif"],
+    "category": "skin",
+    "step": "treat",
+    "type": "serum",
+    "concerns": ["hyperpigmentation / dark spots"],
+    "ingredients": [],
+    "inStock": true
+  },
+  {
+    "id": "skin-13",
+    "name": "SPF 50 Sunscreen",
+    "description": "Sun protection, UV exposure / damage",
+    "price": 380,
+    "oldPrice": 399,
+    "images": ["/images/skin13.avif", "/images/seller9-2.avif", "/images/seller9-3.avif"],
+    "category": "skin",
+    "step": "spf",
+    "type": "spf",
+    "concerns": [],
+    "ingredients": [],
+    "inStock": true
+  }
+]
