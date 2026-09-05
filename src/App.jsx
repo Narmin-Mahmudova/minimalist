@@ -4,12 +4,14 @@ import Footer from './components/Footer';
 import { CartProvider } from './context/CartContext';
 import { WishlistProvider } from './context/WishlistContext';
 import { routes } from './routes/routesConfig';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <CartProvider>
       <WishlistProvider>
         <Router>
+          <ScrollToTop />
           <Header />
           <main>
             <Routes>
