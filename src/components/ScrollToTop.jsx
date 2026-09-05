@@ -5,10 +5,10 @@ function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Səhifəni ən yuxarı çəkir
-  }, [pathname]); // Hər dəfə pathname (səhifə ünvanı) dəyişəndə işə düşür
+    window.scrollTo(0, 0); 
+  }, [pathname]); 
 
-  return null; // Bu komponent ekrana heç nə render etmir
+  return null; 
 }
 
 export default ScrollToTop;
