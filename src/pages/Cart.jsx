@@ -37,18 +37,17 @@ function Cart() {
   const total = Math.max(0, subtotal - couponDiscount) + shipping;
 
   const handleCheckout = () => {
-    const isLoggedIn = localStorage.getItem('isLoggedIn');
+  const currentUser = localStorage.getItem('currentUser');
 
-    if (!isLoggedIn) {
-      navigate('/login');
-      return;
-    }
+  if (!currentUser) {
+    navigate('/login');
+    return;
+  }
 
-    setOrderPlaced(true);
-    clearCart();
-    setAppliedCoupon(null);
-  };
-
+  setOrderPlaced(true);
+  clearCart();
+  setAppliedCoupon(null);
+};
   if (orderPlaced) {
     return (
       <div className="py-16 bg-gray-50 min-h-screen flex items-center justify-center">
