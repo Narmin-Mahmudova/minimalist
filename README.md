@@ -4,7 +4,8 @@ Modern and clean web application built with React, Tailwind CSS, and Vite.
 
 🔗 Live Demo: https://minimalist-lime-eight.vercel.app/
 
-![Minimalist Screenshot](minimalist.png)
+<img width="953" height="494" alt="minimalist" src="https://github.com/user-attachments/assets/5da62d5b-00bb-410a-bb95-6645d2e1a462" />
+
 
 ## ✨ Features
 
