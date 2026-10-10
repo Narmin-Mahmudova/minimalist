@@ -51,14 +51,16 @@ export const CartProvider = ({ children }) => {
     });
   };
 
-  const updateQuantity = (id, delta) => {
+  const updateQuantity = (id, size, delta) => {
     setCartItems(prev => prev.map(item =>
-      item.id === id ? { ...item, quantity: Math.max(1, item.quantity + delta) } : item
+      (item.id === id && item.size === size)
+        ? { ...item, quantity: Math.max(1, item.quantity + delta) }
+        : item
     ));
   };
 
-  const removeItem = (id) => {
-    setCartItems(prev => prev.filter(item => item.id !== id));
+  const removeItem = (id, size) => {
+    setCartItems(prev => prev.filter(item => !(item.id === id && item.size === size)));
   };
 
   const clearCart = () => setCartItems([]);

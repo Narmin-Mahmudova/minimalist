@@ -5,7 +5,6 @@ import useScrollAnimation from '../hooks/useScrollAnimation';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
 import productsData from "../data/products.json";
-import launchesData from "../data/launches.json";
 import hairData from "../data/hair.json";
 import skinData from "../data/skin.json";
 import bestsellersData from "../data/bestsellers.json";
@@ -89,20 +88,26 @@ function Detail() {
   const addToCart = () => {
     const sizeLabel = selectedSize ? selectedSize.label : null;
 
-    const itemToAdd = {
-      id: product.id,
-      name: product.name,
-      description: description,
-      price: price,
-      oldPrice: oldPrice,
-      size: sizeLabel,
-      image: image,
-      quantity: quantity
-    };
-
     if (addToCartCtx) {
-      addToCartCtx(itemToAdd, quantity);
+      addToCartCtx(
+        product,     
+        quantity,    
+        sizeLabel,   
+        price,       
+        oldPrice    
+      );
     } else {
+      const itemToAdd = {
+        id: product.id,
+        name: product.name,
+        description: description,
+        price: price,
+        oldPrice: oldPrice,
+        size: sizeLabel,
+        image: image,
+        quantity: quantity
+      };
+
       const existingCart = JSON.parse(localStorage.getItem('cart')) || [];
       const existingItem = existingCart.find(
         item => item.id === product.id && item.size === sizeLabel
@@ -120,14 +125,21 @@ function Detail() {
   };
 
   const getRelatedProducts = () => {
-    const allData = [
+    const rawData = [
       ...productsData,
-      ...launchesData,
       ...hairData,
       ...skinData,
       ...bestsellersData,
       ...newLaunchesData
     ];
+
+    const uniqueMap = new Map();
+    rawData.forEach(item => {
+      if (item?.id && !uniqueMap.has(String(item.id))) {
+        uniqueMap.set(String(item.id), item);
+      }
+    });
+    const allData = Array.from(uniqueMap.values());
 
     const currentId = String(product.id);
     const filtered = allData.filter(p => String(p.id) !== currentId);

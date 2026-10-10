@@ -19,7 +19,11 @@ function Cart() {
     setAppliedCoupon(prev => (prev?.code === coupon.code ? null : coupon));
   };
 
-  const subtotal = cartItems.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+  const originalSubtotal = cartItems.reduce((sum, item) => {
+    const itemOriginalPrice = item.oldPrice && item.oldPrice > item.price ? item.oldPrice : item.price;
+    return sum + (itemOriginalPrice * item.quantity);
+  }, 0);
+
   const discount = cartItems.reduce((sum, item) => {
     if (item.oldPrice && item.oldPrice > item.price) {
       return sum + (item.oldPrice - item.price) * item.quantity;
@@ -27,27 +31,31 @@ function Cart() {
     return sum;
   }, 0);
 
+  const actualSubtotal = originalSubtotal - discount;
+
   const couponDiscount = appliedCoupon
     ? appliedCoupon.type === 'percent'
-      ? Math.round(subtotal * (appliedCoupon.value / 100))
-      : Math.min(appliedCoupon.value, subtotal)
+      ? Math.round(actualSubtotal * (appliedCoupon.value / 100))
+      : Math.min(appliedCoupon.value, actualSubtotal)
     : 0;
 
-  const shipping = subtotal > 500 ? 0 : 50;
-  const total = Math.max(0, subtotal - couponDiscount) + shipping;
+  const shipping = actualSubtotal > 500 ? 0 : 50;
+
+  const total = Math.max(0, originalSubtotal - discount - couponDiscount) + shipping;
 
   const handleCheckout = () => {
-  const currentUser = localStorage.getItem('currentUser');
+    const currentUser = localStorage.getItem('currentUser');
 
-  if (!currentUser) {
-    navigate('/login');
-    return;
-  }
+    if (!currentUser) {
+      navigate('/login');
+      return;
+    }
 
-  setOrderPlaced(true);
-  clearCart();
-  setAppliedCoupon(null);
-};
+    setOrderPlaced(true);
+    clearCart();
+    setAppliedCoupon(null);
+  };
+
   if (orderPlaced) {
     return (
       <div className="py-16 bg-gray-50 min-h-screen flex items-center justify-center">
@@ -87,20 +95,22 @@ function Cart() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-8">
           <div className="bg-white rounded-lg overflow-hidden">
             {cartItems.map(item => (
-              <div key={item.id} className="grid grid-cols-[80px_1fr_40px] grid-rows-[auto_1fr] gap-3 p-3 border-b border-gray-100 md:grid-cols-[100px_1fr_120px_100px_40px] md:grid-rows-1 md:items-center md:gap-5 md:p-5">
+              <div key={`${item.id}-${item.size}`} className="grid grid-cols-[80px_1fr_40px] grid-rows-[auto_1fr] gap-3 p-3 border-b border-gray-100 md:grid-cols-[100px_1fr_120px_100px_40px] md:grid-rows-1 md:items-center md:gap-5 md:p-5">
                 <div className="w-20 h-20 row-span-2 self-center bg-gray-100 rounded overflow-hidden md:w-24 md:h-24 md:row-span-1">
                   <img src={item.image} alt={item.name} className="w-full h-full object-contain p-2.5" />
                 </div>
                 <div className="col-start-2 row-start-1 md:col-auto md:row-auto">
                   <h3 className="text-base font-semibold text-gray-900 mb-1">{item.name}</h3>
                   <p className="text-sm text-gray-400 mb-1">{item.description}</p>
-                  <p className="text-sm text-gray-500">Size: {item.size || 'Default'}</p>
+                  {item.size && item.size !== 'Default' && (
+                    <p className="text-sm text-gray-500">Size: {item.size}</p>
+                  )}
                 </div>
                 <div className="col-start-2 row-start-2 flex items-center justify-between md:contents">
                   <div className="flex items-center gap-2 md:col-start-3 md:row-start-1">
                     <button
                       className="w-8 h-8 border border-gray-200 bg-white flex items-center justify-center transition-all duration-200 hover:border-gray-900 disabled:opacity-30 disabled:cursor-not-allowed"
-                      onClick={() => updateQuantity(item.id, -1)}
+                      onClick={() => updateQuantity(item.id, item.size, -1)}
                       disabled={item.quantity <= 1}
                     >
                       <FiMinus />
@@ -108,7 +118,7 @@ function Cart() {
                     <span className="text-sm font-semibold min-w-[24px] text-center">{item.quantity}</span>
                     <button
                       className="w-8 h-8 border border-gray-200 bg-white flex items-center justify-center transition-all duration-200 hover:border-gray-900"
-                      onClick={() => updateQuantity(item.id, 1)}
+                      onClick={() => updateQuantity(item.id, item.size, 1)}
                     >
                       <FiPlus />
                     </button>
@@ -122,7 +132,7 @@ function Cart() {
                 </div>
                 <button
                   className="col-start-3 row-span-2 self-center justify-self-center bg-transparent border-none text-gray-400 cursor-pointer p-2 transition-colors duration-200 hover:text-red-500 md:col-start-5 md:row-span-1"
-                  onClick={() => removeItem(item.id)}
+                  onClick={() => removeItem(item.id, item.size)}
                 >
                   <FiTrash2 />
                 </button>
@@ -160,15 +170,34 @@ function Cart() {
               )}
             </div>
 
-            <div className="flex justify-between mb-3 text-sm text-gray-500"><span>Subtotal</span><span>₹{subtotal}</span></div>
-            <div className="flex justify-between mb-3 text-sm text-gray-500"><span>Shipping</span><span>{shipping === 0 ? 'Free' : `₹${shipping}`}</span></div>
+            <div className="flex justify-between mb-3 text-sm text-gray-500">
+              <span>Subtotal</span>
+              <span>₹{originalSubtotal}</span>
+            </div>
+            
+            <div className="flex justify-between mb-3 text-sm text-gray-500">
+              <span>Shipping</span>
+              <span>{shipping === 0 ? 'Free' : `₹${shipping}`}</span>
+            </div>
+
             {discount > 0 && (
-              <div className="flex justify-between mb-3 text-sm text-green-600"><span>Discount</span><span>-₹{discount}</span></div>
+              <div className="flex justify-between mb-3 text-sm text-green-600">
+                <span>Product Discount</span>
+                <span>-₹{discount}</span>
+              </div>
             )}
+
             {couponDiscount > 0 && (
-              <div className="flex justify-between mb-3 text-sm text-green-600"><span>Coupon ({appliedCoupon.code})</span><span>-₹{couponDiscount}</span></div>
+              <div className="flex justify-between mb-3 text-sm text-green-600">
+                <span>Coupon ({appliedCoupon.code})</span>
+                <span>-₹{couponDiscount}</span>
+              </div>
             )}
-            <div className="flex justify-between my-5 pt-4 border-t border-gray-100 text-lg font-bold text-gray-900"><span>Total</span><span>₹{total}</span></div>
+
+            <div className="flex justify-between my-5 pt-4 border-t border-gray-100 text-lg font-bold text-gray-900">
+              <span>Total</span>
+              <span>₹{total}</span>
+            </div>
 
             <button
               onClick={handleCheckout}

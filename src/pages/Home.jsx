@@ -4,7 +4,6 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { useNavigate } from "react-router-dom";
 import { FiHeart } from 'react-icons/fi';
 import productsData from "../data/products.json";
-import launchesData from "../data/launches.json";
 import hairData from "../data/hair.json";
 import skinData from "../data/skin.json";
 import bestsellersData from "../data/bestsellers.json";
@@ -32,7 +31,15 @@ function Home() {
   const [promoRef, promoVisible] = useScrollAnimation();
 
   const addToCart = (product) => {
-    addToCartCtx(product);
+    const defaultSize = Array.isArray(product.sizes) && product.sizes.length > 0 
+      ? product.sizes[0] 
+      : null;
+
+    const sizeLabel = defaultSize ? defaultSize.label : null;
+    const price = defaultSize ? defaultSize.price : (product.price || 0);
+    const oldPrice = defaultSize ? defaultSize.oldPrice : product.oldPrice;
+
+    addToCartCtx(product, 1, sizeLabel, price, oldPrice);
     navigate('/cart');
   };
 
@@ -66,7 +73,7 @@ function Home() {
   ];
 
   const products = productsData;
-  const launches = launchesData;
+  const launches = newLaunchesData;
 
   const heroSlides = [
     { key: "slide-1", image: "/images/slider1.avif", imageMobile: "/images/slider1-1.avif", product: bestsellersData.find(p => p.id === "bestseller-7") || null },

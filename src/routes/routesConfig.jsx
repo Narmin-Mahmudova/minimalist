@@ -15,6 +15,7 @@ import Detail from '../pages/Detail';
 import InfoPage from '../pages/InfoPage';
 import Login from '../pages/Login';
 import ContactForm from '../pages/ContactForm';
+import Error from '../pages/Error';
 
 export const routes = [
   { path: '/', element: <Home /> },
@@ -37,4 +38,5 @@ export const routes = [
   { path: '/info/:slug', element: <InfoPage /> },
   { path: '/login', element: <Login /> },
   { path: '/contact-form', element: <ContactForm /> },
+  { path: '*', element: <Error /> },
 ];
